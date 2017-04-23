@@ -39,6 +39,7 @@ function detectCollision() {
                 document.getElementById("scoreValue").innerHTML = ++score;
                 if(score == r*c) {
                     alert("Congratulations, You won!");
+                    reset();
                 }
             }
         }
